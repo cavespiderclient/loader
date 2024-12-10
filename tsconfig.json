@@ -8,7 +8,11 @@
     "skipLibCheck": true,
     "outDir": "dist",
     "declaration": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "paths": {
+      "mods": ["./mods/dist/index.d.ts"],
+      "core": ["../core/index.d.ts"]
+    }
   },
   "include": ["src"]
 }

@@ -1,5 +1,5 @@
-import type { ModLoader as TomateModsModLoader } from 'tomate-mods';
-import type { ILauncherOptions } from 'minecraft-launcher-core';
+import type { ModLoader as TomateModsModLoader } from 'mods';
+import type { ILauncherOptions } from 'core';
 
 export type LaunchConfig = {
   rootPath: string;

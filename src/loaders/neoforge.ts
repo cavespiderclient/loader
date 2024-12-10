@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import xml from 'xml2js';
 
-import type { ModLoader } from 'tomate-mods';
+import type { ModLoader } from 'mods';
 import type { LaunchConfig } from '..';
 import { InvalidVersionError } from '../errors';
 
