@@ -35,14 +35,14 @@ export type VanillaLoader = Omit<
   'tomateModsModLoader' | 'listLoaderVersions' | 'listAllLoaderVersions'
 >;
 
-export type LoaderId = 'quilt' | 'fabric' | 'forge' | 'neoforge' | 'vanilla';
-export type ModdedLoaderId = 'quilt' | 'fabric' | 'forge';
+export type LoaderId = 'fabric' | 'forge' | 'neoforge' | 'vanilla' | 'optifine';
+export type ModdedLoaderId = 'fabric' | 'forge' | 'optifine';
 
 export * as fabric from './loaders/fabric';
-export * as quilt from './loaders/quilt';
 export * as forge from './loaders/forge';
 export * as neoforge from './loaders/neoforge';
 export * as vanilla from './loaders/vanilla';
+export * as optifine from './loaders/optifine';
 
 export { loader } from './loader';
 export { liner } from './liner';
