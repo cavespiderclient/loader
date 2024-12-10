@@ -2,7 +2,7 @@ import axios, { AxiosError } from 'axios';
 import fs from 'fs';
 import path from 'path';
 
-import type { ModLoader } from 'mods';
+import type { ModLoader } from '../../mods';
 import type { LaunchConfig } from '..';
 import { InvalidVersionError } from '../errors';
 

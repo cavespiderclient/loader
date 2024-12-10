@@ -1,4 +1,4 @@
-import type { ModLoader as TomateModsModLoader } from 'mods';
+import type { ModLoader as TomateModsModLoader } from '../mods';
 import type { ILauncherOptions } from 'core';
 
 export type LaunchConfig = {
